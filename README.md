@@ -1,3 +1,20 @@
+## Overview
+
+This is a web app that users register and / or log in with authentication.  The front end connects to a backend database hosted at Heroku.
+
+The app uses AI from the Clarifai (https://www.clarifai.com/models/face-detection) API.  Once logged in users can submit a URL to an image, the app will then use Clarifai to detect a face.  Using this data we then draw a box around the area it thinks is a face.
+
+Each user has a score and earn points for detecting a face.
+
+Please visit https://facey-finder.herokuapp.com/ to use the app.  If you dont want to register (fake email addresses are fine!) you can use;
+Email: davedave@gmail.com
+Password: password
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
